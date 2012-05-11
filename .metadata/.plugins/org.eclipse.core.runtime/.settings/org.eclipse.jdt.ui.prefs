@@ -1,0 +1,24 @@
+#Fri May 11 10:06:03 JST 2012
+semanticHighlighting.parameterVariable.enabled=true
+stickyOccurrences=false
+content_assist_proposals_foreground=0,0,0
+content_assist_favorite_static_members=org.hamcrest.CoreMatchers.*;org.junit.Assert.*;org.junit.matchers.JUnitMatchers.*;org.hamcrest.MatcherAssert.*;org.mockito.Matchers.*;org.mockito.Mockito.*
+spelling_locale_initialized=true
+semanticHighlighting.localVariableDeclaration.color=0,128,0
+semanticHighlighting.localVariable.enabled=true
+semanticHighlighting.parameterVariable.color=255,0,0
+semanticHighlighting.localVariableDeclaration.enabled=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+fontPropagated=true
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+semanticHighlighting.localVariableDeclaration.bold=true
+content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.internal.ui.navigator.layout=2
+useQuickDiffPrefPage=true
+semanticHighlighting.localVariable.color=0,128,0

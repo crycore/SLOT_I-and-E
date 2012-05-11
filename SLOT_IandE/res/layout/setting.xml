@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MENU xmlns:android="http://chemas.android.com/apk/res/android">
+    <ITEM android:icon="@android:drawable/ic_menu_edit"
+          android:title="@string/menu_item0"
+          android:numericShortcut="0"
+          android:id="@+id/menu_item0">
+    </ITEM>
+
+    <ITEM android:icon="@android:drawable/ic_menu_gallery"
+          android:title="@string/menu_item1"
+          android:numericShortcut="1"
+          android:id="@+id/menu_item1">
+    </ITEM>
+
+    <ITEM android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/menu_item2"
+          android:numericShortcut="2"
+          android:id="@+id/menu_item2">
+    </ITEM>
+</MENU>
