@@ -1,4 +1,4 @@
-package SLOT_WIN;
+package slot.win;
 
 import android.app.Activity;
 import android.os.Bundle;
