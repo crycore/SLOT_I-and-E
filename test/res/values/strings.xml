@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestActivity!</string>
+    <string name="app_name">ギャンブル収支キャプチャー</string>
+    <string name="youbi_0">日</string>
+    <string name="youbi_1">月</string>
+    <string name="youbi_2">火</string>
+    <string name="youbi_3">水</string>
+    <string name="youbi_4">木</string>
+    <string name="youbi_5">金</string>
+    <string name="youbi_6">土</string>
+
+</resources>
