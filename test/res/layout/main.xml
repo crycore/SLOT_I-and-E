@@ -3,13 +3,14 @@
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-
+
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp" >
 
         <Button
             android:id="@+id/back"
@@ -22,9 +23,9 @@
             android:id="@+id/DATE_Label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:text=""
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Button
@@ -32,8 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="→"
-            android:textAppearance="?android:attr/textAppearanceLarge"  />
-
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 
     <LinearLayout
@@ -46,61 +46,62 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-------------------------------------------"
-            android:textAppearance="?android:attr/textAppearanceLarge"/>
-
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
-<LinearLayout
+
+    <LinearLayout
         android:id="@+id/linearLayout10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_gravity="center" >
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
             android:text="@string/youbi_0"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginRight="18dp"/>
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
             android:text="@string/youbi_1"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginRight="18dp" />
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
             android:text="@string/youbi_2"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginRight="18dp"/>
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
             android:text="@string/youbi_3"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginRight="18dp"/>
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
             android:text="@string/youbi_4"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginRight="18dp"/>
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
             android:text="@string/youbi_5"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_marginRight="18dp"/>
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:id="@+id/textView7"
@@ -108,15 +109,13 @@
             android:layout_height="wrap_content"
             android:text="@string/youbi_6"
             android:textAppearance="?android:attr/textAppearanceLarge" />
-
     </LinearLayout>
-
+
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" >
-
     </LinearLayout>
 
     <LinearLayout
@@ -124,7 +123,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp" >
 
         <Button
             android:id="@+id/hiduke_button1"
@@ -224,7 +223,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp" >
 
         <Button
             android:id="@+id/hiduke_button15"
@@ -268,13 +267,13 @@
             android:layout_height="40dp"
             android:text="" />
     </LinearLayout>
-
+
     <LinearLayout
         android:id="@+id/linearLayout6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp" >
 
         <Button
             android:id="@+id/hiduke_button22"
@@ -324,7 +323,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp" >
 
         <Button
             android:id="@+id/hiduke_button29"
@@ -368,13 +367,13 @@
             android:layout_height="40dp"
             android:text="" />
     </LinearLayout>
-
+
     <LinearLayout
         android:id="@+id/linearLayout8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp" >
 
         <Button
             android:id="@+id/hiduke_button36"
