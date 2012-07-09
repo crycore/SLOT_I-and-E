@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">counter</string>
+	<string name="aka">赤</string>
+	<string name="midori">緑</string>
+	<string name="kiiro">黄</string>
+	<string name="ao">青</string>
+	<string name="siro">白</string>
+</resources>

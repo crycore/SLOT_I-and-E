@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1" android:orientation="horizontal"
+	android:baselineAligned="false" android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:gravity="center|right">
+
+	<LinearLayout android:id="@+id/linearLayout4"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<LinearLayout android:id="@+id/linearLayoutMode"
+			android:layout_width="match_parent" android:layout_height="wrap_content">
+			<Button android:text="モードA" android:id="@+id/buttonModeA"
+				android:layout_width="100dp" android:layout_height="50dp"></Button>
+			<Button android:text="モードB" android:id="@+id/buttonModeB"
+				android:layout_width="100dp" android:layout_height="50dp"></Button>
+			<Button android:text="モードC" android:id="@+id/buttonModeC"
+				android:layout_width="100dp" android:layout_height="50dp"></Button>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/linearLayout5" android:layout_width="match_parent">
+			<Button android:id="@+id/check" android:layout_height="55dp"
+				android:layout_gravity="center" android:text="check"
+				android:gravity="center" android:layout_width="90dp"></Button>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/linearLayout2"
+			android:layout_width="match_parent" android:layout_marginBottom="15dp"
+			android:layout_height="wrap_content" android:layout_marginTop="20dp">
+
+			<LinearLayout android:id="@+id/linearLayoutAka"
+				android:layout_width="wrap_content" android:orientation="vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp">
+				<TextView android:layout_height="20dp" android:text="1/0.0"
+					android:layout_gravity="bottom" android:id="@+id/probabilityAka"
+					android:layout_width="50dp" android:gravity="right"></TextView>
+				<TextView android:layout_height="20dp" android:text="0"
+					android:layout_gravity="bottom" android:id="@+id/countAka"
+					android:layout_width="50dp" android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp" android:gravity="right"></TextView>
+				<Button android:id="@+id/buttonAka" android:layout_height="60dp"
+					android:layout_gravity="bottom" android:layout_width="60dp"
+					android:background="@drawable/aka"></Button>
+			</LinearLayout>
+
+			<LinearLayout android:id="@+id/linearLayoutMidori"
+				android:layout_width="wrap_content" android:orientation="vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp">
+				<TextView android:layout_height="20dp" android:text="1/0.0"
+					android:layout_gravity="bottom" android:id="@+id/probabilityMidori"
+					android:layout_width="50dp" android:gravity="right"></TextView>
+				<TextView android:layout_height="20dp" android:text="0"
+					android:layout_gravity="bottom" android:id="@+id/countMidori"
+					android:layout_width="50dp" android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp" android:gravity="right"></TextView>
+				<Button android:id="@+id/buttonMidori" android:layout_height="60dp"
+					android:layout_gravity="bottom" android:layout_width="60dp"
+					android:radius="10dp" android:background="@drawable/midori"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/linearLayoutKi"
+				android:layout_width="wrap_content" android:orientation="vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp">
+				<TextView android:layout_height="20dp" android:text="1/0.0"
+					android:layout_gravity="bottom" android:id="@+id/probabilityKi"
+					android:layout_width="50dp" android:gravity="right"></TextView>
+				<TextView android:layout_height="20dp" android:text="0"
+					android:layout_gravity="bottom" android:id="@+id/countKi"
+					android:layout_width="50dp" android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp" android:gravity="right"></TextView>
+				<Button android:id="@+id/buttonKi" android:layout_height="60dp"
+					android:layout_gravity="bottom" android:layout_width="60dp"
+					android:background="@drawable/ki"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/linearLayoutAo"
+				android:layout_width="wrap_content" android:orientation="vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp">
+				<TextView android:layout_height="20dp" android:text="1/0.0"
+					android:layout_gravity="bottom" android:id="@+id/probabilityAo"
+					android:layout_width="50dp" android:gravity="right"></TextView>
+				<TextView android:layout_height="20dp" android:text="0"
+					android:layout_gravity="bottom" android:id="@+id/countAo"
+					android:layout_width="50dp" android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp" android:gravity="right"></TextView>
+				<Button android:id="@+id/buttonAo" android:layout_height="60dp"
+					android:layout_gravity="bottom" android:layout_width="60dp"
+					android:background="@drawable/ao"></Button>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/linearLayoutSiro"
+				android:layout_width="wrap_content" android:orientation="vertical"
+				android:layout_height="wrap_content" android:layout_marginLeft="10dp"
+				android:layout_marginTop="10dp">
+				<TextView android:layout_height="20dp" android:text="1/0.0"
+					android:layout_gravity="bottom" android:id="@+id/probabilitySiro"
+					android:layout_width="50dp" android:gravity="right"></TextView>
+				<TextView android:layout_height="20dp" android:text="0"
+					android:layout_gravity="bottom" android:id="@+id/countSiro"
+					android:layout_width="50dp" android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp" android:gravity="right"></TextView>
+				<Button android:id="@+id/buttonSiro" android:layout_height="60dp"
+					android:layout_gravity="bottom" android:layout_width="60dp"
+					android:background="@drawable/siro"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+
+
+
+	<LinearLayout android:id="@+id/linearLayout3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="bottom" android:orientation="vertical"
+		android:layout_marginLeft="35dp" android:layout_marginBottom="5dp">
+		<Button android:text="-" android:id="@+id/count1"
+			android:layout_height="45dp" android:layout_width="70dp"
+			android:layout_gravity="center" android:gravity="center"></Button>
+		<Button android:layout_height="55dp" android:text="0"
+			android:id="@+id/countKaiten" android:layout_width="90dp"
+			android:layout_gravity="center" android:gravity="center|right"></Button>
+		<Button android:text="+100" android:id="@+id/button100"
+			android:layout_height="45dp" android:layout_width="70dp"
+			android:layout_gravity="center" android:gravity="center"></Button>
+		<Button android:text="+10" android:id="@+id/button10"
+			android:layout_height="45dp" android:layout_width="70dp"
+			android:layout_gravity="center" android:gravity="center"></Button>
+		<Button android:text="+1" android:id="@+id/button1"
+			android:layout_height="45dp" android:layout_width="70dp"
+			android:layout_gravity="center" android:gravity="center"></Button>
+	</LinearLayout>
+
+</LinearLayout>
