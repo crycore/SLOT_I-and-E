@@ -9,7 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class counterActivity extends Activity {
+public class modeb extends Activity {
 
 	private TextView cAka;
 	private TextView cMidori;
@@ -29,7 +29,7 @@ public class counterActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 		
-		Button modeb = (Button) findViewById(R.id.buttonModeB);
+		Button modea = (Button) findViewById(R.id.buttonModeA);
 		Button modec = (Button) findViewById(R.id.buttonModeC);
 		
 		Button bAka = (Button) findViewById(R.id.buttonAka);
@@ -268,14 +268,7 @@ public class counterActivity extends Activity {
 		}
 	};
 	
-	OnClickListener modeb_listener = new Button.OnClickListener() {
-		
 
-		public void onClick(View view) {
-			Intent intent = new Intent(counterActivity.this, modeb.class);
-			startActivity(intent);
-		}
-	};
 	
 	
 
