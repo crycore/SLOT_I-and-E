@@ -1,8 +1,0 @@
-#Sat Oct 11 00:32:28 JST 2008
-tomcatDir=G://tomcat/6.0
-eclipse.preferences.version=1
-fixTomcatHomeBug=fixed
-contextsDir=G://tomcat/6.0/conf/Catalina/localhost
-tomcatVersion=tomcatV6
-computeSourcePath=true
-tomcatConfigFile=G://tomcat/6.0/conf/server.xml
